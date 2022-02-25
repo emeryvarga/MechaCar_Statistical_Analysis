@@ -23,3 +23,11 @@ total_summary <- Suspension_Coil %>% summarize(Mean=mean(PSI), Median=median(PSI
 
 # 4. Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil's PSI column.
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = "keep")
+
+# Total summary box plot
+plt1 <- ggplot(Suspension_Coil,aes(y=PSI))
+plt1 + geom_boxplot() #add boxplot
+
+# Lot summary box plot
+plt2 <- ggplot(Suspension_Coil,aes(x=Manufacturing_Lot,y=PSI))
+plt2 + geom_boxplot()
