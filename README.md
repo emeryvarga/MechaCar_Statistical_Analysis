@@ -45,5 +45,21 @@ The mean of all manufacturing lots is 1498.78, and the p-value is 0.06028. The p
 * Lot 2 has a mean of 1500.2 and a p-value of 0.6072, so we accept the null hypothesis.
 * Lot 3 has a mean of 1496.14 and a p-value of 0.04168, so we reject the null hypothesis, meaning the mean PSI in Lot 3 is statistically different than the mean PSI of the general population. 
 
+## Study Design: MechaCar vs Competition
 
+**Metrics:**
+* Current selling price
+* Fuel efficiency (mpg)
+* Maintenance costs
+* Resale value
+
+
+**Null hypothesis:**
+MechaCar is priced correctly based on its performance.
+
+**Alternative hypothesis:**
+MechaCar is not priced correctly based on its performance.
+
+**Statistical Test:**
+Multiple linear regression will be used to determine correlation between each variable and the selling price.
 
