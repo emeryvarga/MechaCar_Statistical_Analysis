@@ -27,3 +27,6 @@ However, **the manufacturing data does not meet this design specification for ea
 The box plot below illustrates the PSI variance for each lot:
 
 ![Resources/LotSummary_BoxPlot.png](Resources/LotSummary_BoxPlot.png)
+
+## T-Tests on Suspension Coils
+
