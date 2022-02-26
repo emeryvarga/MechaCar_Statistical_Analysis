@@ -30,9 +30,20 @@ The box plot below illustrates the PSI variance for each lot:
 
 ## T-Tests on Suspension Coils
 
+#### All Manufacturing Lots:
+
 ![AllLotsTTest.png](Resources/AllLotsTTest.png)
 
+The mean of all manufacturing lots is 1498.78, and the p-value is 0.06028. The p-value is above the common significance level of 0.05, so we accept the null hypothesis. This means the sample mean PSI of all lots is statistically similar to the total population mean.
+
+
+#### Individual Manufacturing Lots:
+
 ![IndividualLotTTest.png](Resources/IndividualLotTTest.png)
+
+* Lot 1 has a true sample mean of 1500 and a p-value of 1, so we accept the null hypothesis.
+* Lot 2 has a mean of 1500.2 and a p-value of 0.6072, so we accept the null hypothesis.
+* Lot 3 has a mean of 1496.14 and a p-value of 0.04168, so we reject the null hypothesis, meaning the mean PSI in Lot 3 is statistically different than the mean PSI for the general population. 
 
 
 
