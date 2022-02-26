@@ -30,3 +30,9 @@ The box plot below illustrates the PSI variance for each lot:
 
 ## T-Tests on Suspension Coils
 
+![AllLotsTTest.png](Resources/AllLotsTTest.png)
+
+![IndividualLotTTest.png](Resources/IndividualLotTTest.png)
+
+
+
